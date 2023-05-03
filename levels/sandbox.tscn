@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://0t0g02ihkqyd"]
+
+[ext_resource type="PackedScene" uid="uid://c43ys76adioh" path="res://characters/player/player.tscn" id="1_202l6"]
+
+[node name="Sandbox" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_202l6")]
+move_speed = 500
