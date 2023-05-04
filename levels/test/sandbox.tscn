@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://41if18kqlmqw"]
+
+[ext_resource type="PackedScene" uid="uid://duapllhs18cvc" path="res://scenes/player.tscn" id="1_n7o4a"]
+[ext_resource type="PackedScene" uid="uid://cuxiwmlhhyu8f" path="res://scenes/dummy.tscn" id="2_ox47m"]
+
+[node name="Sandbox" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_n7o4a")]
+position = Vector2(6, 191)
+move_speed = 700
+
+[node name="Dummy" parent="." instance=ExtResource("2_ox47m")]
+position = Vector2(145, -160)

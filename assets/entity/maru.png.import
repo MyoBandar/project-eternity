@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cuu5b1qa5xauh"
-path="res://.godot/imported/Player_Standard_Run.png-f0d54bd37e655904cb728cecffd6dfec.ctex"
+uid="uid://gjw8unagjntw"
+path="res://.godot/imported/maru.png-716d12e17419b61c8aeb5e469707e67a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/player/sprites/standard_run/Player_Standard_Run.png"
-dest_files=["res://.godot/imported/Player_Standard_Run.png-f0d54bd37e655904cb728cecffd6dfec.ctex"]
+source_file="res://assets/entity/maru.png"
+dest_files=["res://.godot/imported/maru.png-716d12e17419b61c8aeb5e469707e67a.ctex"]
 
 [params]
 

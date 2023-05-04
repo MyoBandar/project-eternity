@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuxiwmlhhyu8f"]
+
+[ext_resource type="Texture2D" uid="uid://20k8jmwsrxdl" path="res://assets/entity/dummy/dummy.png" id="1_qowcn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nbj3w"]
+
+[node name="RigidBody2D" type="RigidBody2D"]
+gravity_scale = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(5, 2)
+shape = SubResource("CircleShape2D_nbj3w")
+disabled = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(37, 17)
+scale = Vector2(0.509473, 0.530008)
+texture = ExtResource("1_qowcn")
